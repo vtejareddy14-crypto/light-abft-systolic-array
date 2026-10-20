@@ -1,0 +1,13 @@
+results/
+sim/
+fi/sites/
+__pycache__/
+*.vvp
+*.vcd
+work/
+transcript
+*.wlf
+reports/
+.Xil/
+*.jou
+*.log
