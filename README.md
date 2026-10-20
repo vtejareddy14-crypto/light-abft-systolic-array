@@ -192,5 +192,4 @@ Computers*, vol. 72, no. 8, pp. 2390–2403, 2023.
 
 ## Authors
 
-V Sai Teja Reddy, Hana Fathima: VIT University, School of Electronics
-Engineering (SENSE). Project guide: Rajeev Pankaj Nelapati.
+V Sai Teja Reddy, VIT University, School of Electronics Engineering (SENSE).
