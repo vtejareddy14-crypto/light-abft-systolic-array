@@ -1,0 +1,17 @@
+name: simulate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  rtl-simulation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Self-checking tests
+        run: make test
+      - name: Blind-spot demos
+        run: make demo
